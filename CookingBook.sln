@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingBook.Data", "CookingBook.Data\CookingBook.Data.csproj", "{87DB7A6D-6CBF-4C13-9E24-F11E21CA63FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingBook.Model", "CookingBook.Model\CookingBook.Model.csproj", "{DC644975-CF79-409B-ADCE-63284AD03145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AAC14EF7-9338-4440-B50C-C4D827EF4260}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingBook.WebForms", "CookingBook.WebForms\CookingBook.WebForms.csproj", "{4A5334E3-C8A8-4461-8131-95882B6ADD68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87DB7A6D-6CBF-4C13-9E24-F11E21CA63FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DB7A6D-6CBF-4C13-9E24-F11E21CA63FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DB7A6D-6CBF-4C13-9E24-F11E21CA63FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DB7A6D-6CBF-4C13-9E24-F11E21CA63FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC644975-CF79-409B-ADCE-63284AD03145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC644975-CF79-409B-ADCE-63284AD03145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC644975-CF79-409B-ADCE-63284AD03145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC644975-CF79-409B-ADCE-63284AD03145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5334E3-C8A8-4461-8131-95882B6ADD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5334E3-C8A8-4461-8131-95882B6ADD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5334E3-C8A8-4461-8131-95882B6ADD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5334E3-C8A8-4461-8131-95882B6ADD68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
